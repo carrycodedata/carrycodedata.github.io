@@ -1,0 +1,6 @@
+{
+  "name": "Carrycode Codex Hub",
+  "description": "Carrycode Codex资料管理与预览平台",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
