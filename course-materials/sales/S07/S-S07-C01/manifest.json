@@ -1,0 +1,113 @@
+{
+  "caseId": "S-S07-C01",
+  "resources": [
+    {
+      "id": "static-site",
+      "title": "静态竞品官网",
+      "type": "html",
+      "group": "raw",
+      "path": "00_原始资料/02_静态竞品官网/index.html",
+      "description": "HTML 源代码包含活动内容，可直接观察结构并抓取。"
+    },
+    {
+      "id": "dynamic-activities",
+      "title": "JS 动态活动页",
+      "type": "html",
+      "group": "raw",
+      "path": "00_原始资料/03_JS动态活动页/index.html",
+      "description": "通过 JavaScript 加载 JSON，点击“更多”继续显示活动。"
+    },
+    {
+      "id": "reviews",
+      "title": "评论平台训练页",
+      "type": "html",
+      "group": "raw",
+      "path": "00_原始资料/04_评论平台训练页/reviews.html",
+      "description": "授权评论平台模拟页，提供分页加载、JSON 和 CSV 数据。"
+    },
+    {
+      "id": "readme",
+      "title": "原始资料使用说明",
+      "type": "md",
+      "group": "raw",
+      "path": "00_原始资料/README.md"
+    },
+    {
+      "id": "competitor-urls",
+      "title": "竞品 URL 清单",
+      "type": "xlsx",
+      "group": "raw",
+      "path": "00_原始资料/01_竞品URL清单.xlsx"
+    },
+    {
+      "id": "menu-text",
+      "title": "竞品菜单 · 文本型 PDF",
+      "type": "pdf",
+      "group": "raw",
+      "path": "00_原始资料/05_PDF竞品菜单/光庭_菜单_文本型.pdf"
+    },
+    {
+      "id": "menu-scanned",
+      "title": "竞品菜单 · 扫描型 PDF",
+      "type": "pdf",
+      "group": "raw",
+      "path": "00_原始资料/05_PDF竞品菜单/光庭_菜单_扫描型.pdf"
+    },
+    {
+      "id": "monitoring-template",
+      "title": "竞品监控字段模板",
+      "type": "xlsx",
+      "group": "raw",
+      "path": "00_原始资料/06_竞品监控字段模板.xlsx"
+    },
+    {
+      "id": "company-profile",
+      "title": "公司资料包",
+      "type": "md",
+      "group": "raw",
+      "path": "00_原始资料/07_公司资料包.md"
+    },
+    {
+      "id": "access-rules",
+      "title": "网页访问与停止规则",
+      "type": "md",
+      "group": "raw",
+      "path": "00_原始资料/08_网页访问与停止规则.md"
+    },
+    {
+      "id": "exercise-guide",
+      "title": "字段说明与练习要求",
+      "type": "md",
+      "group": "raw",
+      "path": "00_原始资料/09_字段说明与练习要求.md"
+    },
+    {
+      "id": "reviews-permission",
+      "title": "评论平台授权说明",
+      "type": "md",
+      "group": "raw",
+      "path": "00_原始资料/04_评论平台训练页/README_授权说明.md"
+    },
+    {
+      "id": "activities-json",
+      "title": "活动数据 JSON",
+      "type": "json",
+      "group": "raw",
+      "path": "00_原始资料/03_JS动态活动页/activities.json"
+    },
+    {
+      "id": "reviews-json",
+      "title": "评论数据 JSON",
+      "type": "json",
+      "group": "raw",
+      "path": "00_原始资料/04_评论平台训练页/reviews.json"
+    },
+    {
+      "id": "reviews-csv",
+      "title": "评论数据 CSV 导出",
+      "type": "csv",
+      "group": "raw",
+      "path": "00_原始资料/04_评论平台训练页/reviews_export.csv"
+    }
+  ]
+}

@@ -1,30 +1,46 @@
-export type ViewState = 'home' | 'category' | 'course';
+export type CaseType = 'main' | 'guided' | 'micro' | 'composite' | 'assessment';
+export type ResourceGroup = 'raw' | 'task' | 'output' | 'acceptance' | 'template';
+export type FileType = 'html' | 'pdf' | 'md' | 'xlsx' | 'csv' | 'json' | 'zip' | 'txt' | 'file';
 
-export type FileType = 'html' | 'pdf' | 'md';
-
-export interface FileItem {
+export interface ResourceItem {
   id: string;
-  name: string;
+  title: string;
   type: FileType;
-  size: string;
+  group: ResourceGroup;
+  /** Unencoded path relative to the deployed site root. */
+  path: string;
+  sizeBytes: number;
   updatedAt: string;
-}
-
-export interface Course {
-  id: string;
-  title: string;
   description?: string;
 }
 
-export interface LessonGroup {
+export interface CaseStudy {
+  id: string;
+  title: string;
+  type: CaseType;
+  description?: string;
+  sourcePage?: string;
+  durationMinutes?: number;
+  relatedCaseIds?: string[];
+  relatedCaseNote?: string;
+}
+
+export interface Lesson {
   id: string;
   title: string;
   description?: string;
-  courses: Course[];
+  hours: number;
+  cases: CaseStudy[];
 }
 
 export interface Category {
   id: string;
+  code: string;
   title: string;
   description: string;
+  lessons: Lesson[];
+}
+
+export interface Catalog {
+  categories: Category[];
 }

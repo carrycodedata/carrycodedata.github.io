@@ -1,0 +1,80 @@
+{
+  "platform": "MapReview Training",
+  "place_id": "TRAINING-HIKARI-001",
+  "generated_at": "2026-09-03T09:00:00+09:00",
+  "authorized_training_export": true,
+  "items": [
+    {
+      "review_id": "REV-9001",
+      "rating": 5,
+      "review_date": "2026-09-01",
+      "author_alias": "M.K.",
+      "text": "季節の野菜がきれいで、店員さんの説明も丁寧でした。記念日プレートも嬉しかったです。",
+      "owner_reply_status": "未返信",
+      "risk": "LOW"
+    },
+    {
+      "review_id": "REV-9002",
+      "rating": 2,
+      "review_date": "2026-09-01",
+      "author_alias": "Sato77",
+      "text": "金曜19時、予約していたのに料理が出るまで35分待ちました。味は良かったですが説明がありませんでした。",
+      "owner_reply_status": "未返信",
+      "risk": "MEDIUM"
+    },
+    {
+      "review_id": "REV-9003",
+      "rating": 4,
+      "review_date": "2026-08-30",
+      "author_alias": "旅する猫",
+      "text": "ランチはコスパが良いです。入口が少し分かりにくいので案内板があると助かります。",
+      "owner_reply_status": "返信済み",
+      "risk": "LOW"
+    },
+    {
+      "review_id": "REV-9004",
+      "rating": 1,
+      "review_date": "2026-08-29",
+      "author_alias": "匿名希望",
+      "text": "会計がメニュー表示より高く感じました。明細を受け取っていないので確認してほしいです。",
+      "owner_reply_status": "要確認",
+      "risk": "HIGH"
+    },
+    {
+      "review_id": "REV-9005",
+      "rating": 5,
+      "review_date": "2026-08-27",
+      "author_alias": "Yumi",
+      "text": "子どもへの対応が優しく、アレルギーについても厨房に確認してくれました。",
+      "owner_reply_status": "未返信",
+      "risk": "LOW"
+    },
+    {
+      "review_id": "REV-9006",
+      "rating": 3,
+      "review_date": "2026-08-26",
+      "author_alias": "K.T.",
+      "text": "料理は美味しいですが、QRメニューの文字が小さく注文しづらかったです。",
+      "owner_reply_status": "未返信",
+      "risk": "MEDIUM"
+    },
+    {
+      "review_id": "REV-9007",
+      "rating": 2,
+      "review_date": "2026-08-24",
+      "author_alias": "Rin",
+      "text": "テイクアウトの受取時間を20分過ぎました。混雑時の案内を改善してほしいです。",
+      "owner_reply_status": "未返信",
+      "risk": "MEDIUM"
+    },
+    {
+      "review_id": "REV-9008",
+      "rating": 4,
+      "review_date": "2026-08-23",
+      "author_alias": "Nori",
+      "text": "魚料理が特に良かったです。次は季節コースを予約したいです。",
+      "owner_reply_status": "返信済み",
+      "risk": "LOW"
+    }
+  ]
+}

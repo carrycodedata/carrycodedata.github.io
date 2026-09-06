@@ -1,0 +1,3 @@
+const list=document.querySelector('#review-list'),more=document.querySelector('#more');let items=[],shown=0;
+    function render(){items.slice(shown,shown+4).forEach(x=>{const e=document.createElement('article');e.className='card review-card';e.dataset.reviewId=x.review_id;e.innerHTML=`<p class="meta">${x.review_date}｜${x.author_alias}</p><h2>${'★'.repeat(x.rating)}${'☆'.repeat(5-x.rating)}</h2><p class="review-text">${x.text}</p><p class="meta">返信状態：${x.owner_reply_status}</p>`;list.appendChild(e)});shown+=4;if(shown>=items.length)more.hidden=true}
+    fetch('reviews.json').then(r=>r.json()).then(d=>{items=d.items;render()}).catch(e=>{list.innerHTML=`<p>読み込み失敗：${e.message}</p>`});more.addEventListener('click',render);

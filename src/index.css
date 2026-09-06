@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+:root { font-family: Inter, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif; }
+html { scroll-padding-top: 88px; }
+button, a, input { -webkit-tap-highlight-color: transparent; }
+button:not(:disabled), a { cursor: pointer; }
+:focus-visible { outline: 3px solid #2563eb; outline-offset: 4px; }
+.skip-link { position: fixed; top: -100px; left: 16px; z-index: 100; background: #fff; padding: 12px 20px; border-radius: 12px; }
+.skip-link:focus { top: 12px; }
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}

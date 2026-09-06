@@ -1,0 +1,675 @@
+{
+  "categories": [
+    {
+      "id": "admin",
+      "code": "A",
+      "title": "codex管理后台",
+      "description": "管理后台相关操作文档与系统说明资源",
+      "lessons": [
+        {
+          "id": "A01",
+          "title": "管理后台基础",
+          "description": "后台管理与配置培训",
+          "cases": [
+            {
+              "id": "A-A01-C01",
+              "title": "后台操作指南",
+              "type": "main"
+            }
+          ],
+          "hours": 0
+        }
+      ]
+    },
+    {
+      "id": "marketing",
+      "code": "M",
+      "title": "codex市场宣传",
+      "description": "市场推广方案、品牌视觉规范及宣传物料",
+      "lessons": [
+        {
+          "id": "M01",
+          "title": "市场宣传基础",
+          "description": "品牌视觉与宣发策略",
+          "cases": [
+            {
+              "id": "M-M01-C01",
+              "title": "品牌VI手册",
+              "type": "main"
+            }
+          ],
+          "hours": 0
+        }
+      ]
+    },
+    {
+      "id": "sales",
+      "code": "S",
+      "title": "codex销售",
+      "description": "销售体系赋能、课程原始资料与客户沟通话术",
+      "lessons": [
+        {
+          "id": "S01",
+          "title": "第1次课：客户应对实务",
+          "description": "快速回复、需求整理与跟进记录",
+          "hours": 1,
+          "cases": [
+            {
+              "id": "S-S01-C01",
+              "title": "商谈记录转客户需求、下一步与负责人",
+              "type": "main",
+              "sourcePage": "003",
+              "durationMinutes": 15,
+              "description": "B2B服务销售完成第一次沟通后，需要把文字或语音转写整理成需求、顾虑、负责人和下次行动。"
+            },
+            {
+              "id": "S-S01-C02",
+              "title": "提案前资料齐不齐？一键检查",
+              "type": "guided",
+              "sourcePage": "004",
+              "durationMinutes": 6,
+              "description": "销售准备提案，但不确定客户需求、产品资料、价格、案例和内部确认是否齐全。"
+            },
+            {
+              "id": "S-S01-C03",
+              "title": "杂乱拜访记录转CRM客户记录",
+              "type": "guided",
+              "sourcePage": "005",
+              "durationMinutes": 6,
+              "description": "拜访笔记混有语音转写、聊天片段和手写整理文本，需要进入统一客户记录。"
+            },
+            {
+              "id": "S-S01-C04",
+              "title": "客户问询及时回复与真人口吻",
+              "type": "micro",
+              "sourcePage": "006",
+              "durationMinutes": 4,
+              "description": "客户通过邮件或聊天询问价格、功能、预约和资料，销售希望尽快用自然口吻回复。"
+            },
+            {
+              "id": "S-S01-C05",
+              "title": "客户版与内部版文件防误发",
+              "type": "micro",
+              "sourcePage": "007",
+              "durationMinutes": 4,
+              "description": "同一提案有内部讨论版、负责人确认版和客户版，需要快速认出能发哪一份。"
+            },
+            {
+              "id": "S-S01-C06",
+              "title": "发送前30秒致命错误检查",
+              "type": "micro",
+              "sourcePage": "008",
+              "durationMinutes": 4,
+              "description": "中小企业不需要层层审批，但不能把错误客户名、价格、附件或承诺发出去。"
+            },
+            {
+              "id": "S-S01-C07",
+              "title": "客户全生命周期责任与修改日志",
+              "type": "micro",
+              "sourcePage": "009",
+              "durationMinutes": 4,
+              "description": "客户从首次联系到报价、合同、付款和交付，需要知道谁录入、谁确认、何时修改。"
+            }
+          ]
+        },
+        {
+          "id": "S02",
+          "title": "第2次课：客户管理实务",
+          "description": "线索整理、邮件分类、问卷分析与轻量CRM",
+          "hours": 2,
+          "cases": [
+            {
+              "id": "S-S02-C01",
+              "title": "潜在客户去重、归属与公共池",
+              "type": "main",
+              "sourcePage": "013",
+              "durationMinutes": 28,
+              "description": "三名销售汇总数百条线索，出现重复、信息不足、长期不跟进和归属争议。"
+            },
+            {
+              "id": "S-S02-C02",
+              "title": "邮件按产品、客户阶段分类跟进",
+              "type": "guided",
+              "sourcePage": "014",
+              "durationMinutes": 16,
+              "description": "企业销售多个产品，邮箱里混有新咨询、报价请求、补资料、投诉和未回复邮件。"
+            },
+            {
+              "id": "S-S02-C03",
+              "title": "本地/云端轻量CRM搭建与可用验收",
+              "type": "guided",
+              "sourcePage": "015",
+              "durationMinutes": 16,
+              "description": "一家没有CRM的小企业需要把客户信息、沟通、报价、合同和文件链接集中管理，并在课堂结束时真正得到一个能用的本地版或企业批准的云端版。"
+            },
+            {
+              "id": "S-S02-C04",
+              "title": "报价・提案文件批量命名与最新版本识别",
+              "type": "micro",
+              "sourcePage": "016",
+              "durationMinutes": 10,
+              "description": "多个客户的报价和提案名称混乱，销售无法判断哪份是最新客户版。"
+            },
+            {
+              "id": "S-S02-C05",
+              "title": "提案前AI预演：缺口、追问与攻击点",
+              "type": "micro",
+              "sourcePage": "017",
+              "durationMinutes": 10,
+              "description": "明天要提案，销售希望AI先检查缺件并模拟客户可能追问的地方。"
+            },
+            {
+              "id": "S-S02-C06",
+              "title": "客户调查问卷、匹配度与购买意向评分",
+              "type": "micro",
+              "sourcePage": "018",
+              "durationMinutes": 10,
+              "description": "销售希望用一份简单问卷了解需求、预算、时间、决策条件和顾虑。"
+            },
+            {
+              "id": "S-S02-C07",
+              "title": "销售人员变更时的客户交接包",
+              "type": "micro",
+              "sourcePage": "019",
+              "durationMinutes": 10,
+              "description": "销售请假、离职或更换担当，需要让下一位快速接手客户。"
+            }
+          ]
+        },
+        {
+          "id": "S03",
+          "title": "第3次课：提案制作实务",
+          "description": "把客户需求变成客户看得懂的提案",
+          "hours": 3,
+          "cases": [
+            {
+              "id": "S-S03-C01",
+              "title": "拜访记录转简单客户提案PPT",
+              "type": "main",
+              "sourcePage": "023",
+              "durationMinutes": 40,
+              "description": "销售把客户访谈、产品资料和价格范围整理成一份不堆功能的短提案。"
+            },
+            {
+              "id": "S-S03-C02",
+              "title": "问卷结果转个性化销售方案",
+              "type": "guided",
+              "sourcePage": "024",
+              "durationMinutes": 24,
+              "description": "客户提交调查问卷后，销售需要根据需求、匹配度、顾虑和购买阶段调整方案。"
+            },
+            {
+              "id": "S-S03-C03",
+              "title": "复杂商品用三句话讲明白",
+              "type": "guided",
+              "sourcePage": "025",
+              "durationMinutes": 24,
+              "description": "技术服务、设备或专业服务很复杂，客户听不懂长篇功能说明。"
+            },
+            {
+              "id": "S-S03-C04",
+              "title": "旧提案套模板并更新事实",
+              "type": "micro",
+              "sourcePage": "026",
+              "durationMinutes": 16,
+              "description": "去年提案需要换新模板，同时清理旧价格、旧案例和过期功能。"
+            },
+            {
+              "id": "S-S03-C05",
+              "title": "客户长需求/询价资料转重点与提案结构",
+              "type": "micro",
+              "sourcePage": "027",
+              "durationMinutes": 16,
+              "description": "客户把邮件、聊天、需求书和附件一次发来，销售需要快速找到必须回答的内容。"
+            },
+            {
+              "id": "S-S03-C06",
+              "title": "客户提案中的一张数据图",
+              "type": "micro",
+              "sourcePage": "028",
+              "durationMinutes": 16,
+              "description": "销售只需用一张图说明客户现状、预期改善或同类项目数据。"
+            },
+            {
+              "id": "S-S03-C07",
+              "title": "把专业话术改成客户听得懂的回答",
+              "type": "micro",
+              "sourcePage": "029",
+              "durationMinutes": 16,
+              "description": "客户追问效果、费用、时间和风险，销售需要短而自然地回答。"
+            }
+          ]
+        },
+        {
+          "id": "S04",
+          "title": "第4次课：成交跟进实务",
+          "description": "合同与承诺检查、方案更新与下一步管理",
+          "hours": 2,
+          "cases": [
+            {
+              "id": "S-S04-C01",
+              "title": "报价・提案・合同一致性检查",
+              "type": "main",
+              "sourcePage": "033",
+              "durationMinutes": 28,
+              "description": "服务范围、期限、付款和价格在三份文件中不完全一致。"
+            },
+            {
+              "id": "S-S04-C02",
+              "title": "NDA与数据条款的销售前置检查",
+              "type": "guided",
+              "sourcePage": "034",
+              "durationMinutes": 16,
+              "description": "客户要求签NDA，销售先整理再委托、数据利用、责任和期限问题。"
+            },
+            {
+              "id": "S-S04-C03",
+              "title": "夸大承诺与高风险说法检查",
+              "type": "guided",
+              "sourcePage": "035",
+              "durationMinutes": 16,
+              "description": "提案和聊天中出现保证效果、永久免费、无限支持和确定交期。"
+            },
+            {
+              "id": "S-S04-C04",
+              "title": "客户异议分类与回复策略",
+              "type": "micro",
+              "sourcePage": "036",
+              "durationMinutes": 10,
+              "description": "客户提出太贵、没时间、不相信效果、现在不需要或要问老板。"
+            },
+            {
+              "id": "S-S04-C05",
+              "title": "多轮跟进节奏与漏跟进提醒",
+              "type": "micro",
+              "sourcePage": "037",
+              "durationMinutes": 10,
+              "description": "销售答应回电、补资料或一周后再联系，但容易忘记。"
+            },
+            {
+              "id": "S-S04-C06",
+              "title": "口头承诺风险、证据与书面确认闭环",
+              "type": "micro",
+              "sourcePage": "038",
+              "durationMinutes": 10,
+              "description": "会议中提到定制、免费、交期和支持，销售需要判断承诺风险、确认发言权限、留下双方确认的证据，并追踪是否已写入正式交易文件。"
+            },
+            {
+              "id": "S-S04-C07",
+              "title": "方案更新后快速通知客户并突出差异",
+              "type": "micro",
+              "sourcePage": "039",
+              "durationMinutes": 10,
+              "description": "提案迭代后要立即告诉客户改了哪里、为什么改、需要确认什么。"
+            }
+          ]
+        },
+        {
+          "id": "S05",
+          "title": "第5次课：销售内容制作",
+          "description": "多平台文案、定时发布与高效工作流展示",
+          "hours": 3,
+          "cases": [
+            {
+              "id": "S-S05-C01",
+              "title": "一页讲清产品：对象、痛点、价值、下一步",
+              "type": "main",
+              "sourcePage": "043",
+              "durationMinutes": 40,
+              "description": "销售需要一张A4或一页PDF快速说明产品，不让客户阅读功能大全。"
+            },
+            {
+              "id": "S-S05-C02",
+              "title": "远程产品展示与VR看房行业分支",
+              "type": "guided",
+              "sourcePage": "044",
+              "durationMinutes": 24,
+              "description": "房地产销售想做VR看房，其他行业需要远程产品演示。Codex负责导览逻辑而非独立制作VR。"
+            },
+            {
+              "id": "S-S05-C03",
+              "title": "同一商品的多平台文案与授权定时发布实操",
+              "type": "guided",
+              "sourcePage": "045",
+              "durationMinutes": 24,
+              "description": "同一商品需要分别在LINE、Instagram、X、小红书和朋友圈沟通，并在平台允许的范围内按日期与时刻进入自动发布或人工待发布队列。"
+            },
+            {
+              "id": "S-S05-C04",
+              "title": "同行业痛点故事库",
+              "type": "micro",
+              "sourcePage": "046",
+              "durationMinutes": 16,
+              "description": "把同行业或相近行业常见痛点和已授权案例，整理成下一个客户听得懂的故事。"
+            },
+            {
+              "id": "S-S05-C05",
+              "title": "客户跟进回复包：及时、自然、有下一步",
+              "type": "micro",
+              "sourcePage": "047",
+              "durationMinutes": 16,
+              "description": "针对新咨询、犹豫、补资料、投诉和长时间未回复，准备像真人的短回复。"
+            },
+            {
+              "id": "S-S05-C06",
+              "title": "10～15秒高效工作流展示",
+              "type": "micro",
+              "sourcePage": "048",
+              "durationMinutes": 16,
+              "description": "用最短内容向客户展示AI如何把一项销售工作做得更快、更清楚，不追求复杂广告。"
+            },
+            {
+              "id": "S-S05-C07",
+              "title": "销售素材库：按行业、产品、阶段快速找",
+              "type": "micro",
+              "sourcePage": "049",
+              "durationMinutes": 16,
+              "description": "一页纸、平台文案、行业故事和演示脚本需要被销售快速复用。"
+            }
+          ]
+        },
+        {
+          "id": "S06",
+          "title": "第6次课：销售数据分析",
+          "description": "每日指标、停滞客户与销售看板",
+          "hours": 2,
+          "cases": [
+            {
+              "id": "S-S06-C01",
+              "title": "每日销售数据驾驶舱：Pipeline只是一个面板",
+              "type": "main",
+              "sourcePage": "053",
+              "durationMinutes": 28,
+              "description": "中小企业希望每天看到新增客户、待回复、预约、提案、成交、回款和停滞客户。"
+            },
+            {
+              "id": "S-S06-C02",
+              "title": "每日销售KPI",
+              "type": "guided",
+              "sourcePage": "054",
+              "durationMinutes": 16,
+              "description": "销售负责人需要一眼看到当天线索、联系、回复、预约、提案、成交和金额。"
+            },
+            {
+              "id": "S-S06-C03",
+              "title": "转化漏斗与停滞客户提醒",
+              "type": "guided",
+              "sourcePage": "055",
+              "durationMinutes": 16,
+              "description": "客户从新线索到联系、预约、提案、成交的阶段不同，部分客户长期不动。"
+            },
+            {
+              "id": "S-S06-C04",
+              "title": "购买意向评分与实际成交偏差",
+              "type": "micro",
+              "sourcePage": "056",
+              "durationMinutes": 10,
+              "description": "比较问卷AI评分、销售主观判断和之后的真实成交，验证评分是否有用。"
+            },
+            {
+              "id": "S-S06-C05",
+              "title": "回款状态与提醒",
+              "type": "micro",
+              "sourcePage": "057",
+              "durationMinutes": 10,
+              "description": "成交后仍需看到未开票、已开票、到期和逾期状态。"
+            },
+            {
+              "id": "S-S06-C06",
+              "title": "获客渠道、回复及时度与成交表现",
+              "type": "micro",
+              "sourcePage": "058",
+              "durationMinutes": 10,
+              "description": "比较不同渠道带来的线索、首响时间、跟进次数、预约和成交。"
+            },
+            {
+              "id": "S-S06-C07",
+              "title": "驾驶舱自动更新、异常提醒与行动台账",
+              "type": "micro",
+              "sourcePage": "059",
+              "durationMinutes": 10,
+              "description": "每天从固定客户表、表单和邮件记录更新驾驶舱，并提醒待回复与超期事项。"
+            }
+          ]
+        },
+        {
+          "id": "S07",
+          "title": "第7次课：网页获客实务",
+          "description": "竞品监控、潜客收集与评论回复",
+          "hours": 2,
+          "cases": [
+            {
+              "id": "S-S07-C01",
+              "title": "多来源竞品监控：先判断网页类型再选抓取路线",
+              "type": "main",
+              "sourcePage": "063",
+              "durationMinutes": 28,
+              "description": "一家餐饮企业要持续观察三家竞品活动：A是静态官网，B是JavaScript活动页，C是Google地图评论，另有一份PDF菜单。",
+              "relatedCaseNote": "S-S01-C02、S-S03-C05、S-S06-C07",
+              "relatedCaseIds": [
+                "S-S01-C02",
+                "S-S03-C05",
+                "S-S06-C07"
+              ]
+            },
+            {
+              "id": "S-S07-C02",
+              "title": "静态官网与商品详情页：HTTP＋DOM结构化抓取",
+              "type": "guided",
+              "sourcePage": "064",
+              "durationMinutes": 16,
+              "description": "销售需要从无需登录、打开即有正文的企业官网提取产品、价格、门店和联系入口。",
+              "relatedCaseNote": "S-S01-C02、S-S02-C01、S-S03-C05",
+              "relatedCaseIds": [
+                "S-S01-C02",
+                "S-S02-C01",
+                "S-S03-C05"
+              ]
+            },
+            {
+              "id": "S-S07-C03",
+              "title": "JavaScript动态页、滚动加载与分页：浏览器自动化",
+              "type": "guided",
+              "sourcePage": "065",
+              "durationMinutes": 16,
+              "description": "竞品活动和商品列表需要滚动、点击“更多”或翻页后才出现，直接HTTP抓取只有空壳。",
+              "relatedCaseNote": "S-S02-C01、S-S02-C03、S-S06-C07",
+              "relatedCaseIds": [
+                "S-S02-C01",
+                "S-S02-C03",
+                "S-S06-C07"
+              ]
+            },
+            {
+              "id": "S-S07-C04",
+              "title": "同行获客渠道地图＋公开潜客池",
+              "type": "micro",
+              "sourcePage": "066",
+              "durationMinutes": 10,
+              "description": "销售团队目前只靠朋友圈，需要从同行公开活动中判断他们可能使用哪些获客入口，再选择一个合规、可验证的渠道建立潜客候选。",
+              "relatedCaseNote": "S-S02-C01、S-S02-C03、S-S06-C06",
+              "relatedCaseIds": [
+                "S-S02-C01",
+                "S-S02-C03",
+                "S-S06-C06"
+              ]
+            },
+            {
+              "id": "S-S07-C05",
+              "title": "Google地图、Tabelog等评论平台：抓取评论并生成真人回复",
+              "type": "micro",
+              "sourcePage": "067",
+              "durationMinutes": 10,
+              "description": "餐饮门店需要集中处理好评、差评和特殊投诉，避免逐条复制到聊天AI再贴回平台。",
+              "relatedCaseNote": "S-S01-C04、S-S01-C06、S-S05-C04、S-S05-C05",
+              "relatedCaseIds": [
+                "S-S01-C04",
+                "S-S01-C06",
+                "S-S05-C04",
+                "S-S05-C05"
+              ]
+            },
+            {
+              "id": "S-S07-C06",
+              "title": "RSS、公开API、PDF与网页快照：每日/隔日竞品更新",
+              "type": "micro",
+              "sourcePage": "068",
+              "durationMinutes": 10,
+              "description": "竞品会持续更新活动、菜单、价格和内容，销售希望每天或每两天只看到新增和变化。",
+              "relatedCaseNote": "S-S05-C03、S-S06-C01、S-S06-C07",
+              "relatedCaseIds": [
+                "S-S05-C03",
+                "S-S06-C01",
+                "S-S06-C07"
+              ]
+            },
+            {
+              "id": "S-S07-C07",
+              "title": "客户问卷网页→自动评分→客户库→公司风格回复Agent",
+              "type": "micro",
+              "sourcePage": "069",
+              "durationMinutes": 10,
+              "description": "客户提交网页问卷后，系统要识别匹配度和购买意向，写入客户库，并按公司资料和销售语气生成下一步回复。",
+              "relatedCaseNote": "S-S02-C03、S-S02-C06、S-S01-C04、S-S05-C04、S-S05-C05",
+              "relatedCaseIds": [
+                "S-S02-C03",
+                "S-S02-C06",
+                "S-S01-C04",
+                "S-S05-C04",
+                "S-S05-C05"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "S08",
+          "title": "第8次课：销售AI综合实战",
+          "description": "从发现客户到提案与跟进",
+          "hours": 1,
+          "cases": [
+            {
+              "id": "S-S08-C01",
+              "title": "餐饮门店：竞品活动、差评回复与当日驾驶舱",
+              "type": "composite",
+              "sourcePage": "073",
+              "durationMinutes": 15,
+              "description": "门店早上发现竞品更新活动且自己收到一条差评；学员必须抓取变化、生成符合门店语气的回复、准备多平台当日文案并更新驾驶舱。",
+              "relatedCaseNote": "S-S07-C01、S-S07-C03、S-S07-C05、S-S07-C06、S-S01-C04、S-S01-C06、S-S05-C03、S-S05-C05、S-S06-C01、S-S06-C07",
+              "relatedCaseIds": [
+                "S-S07-C01",
+                "S-S07-C03",
+                "S-S07-C05",
+                "S-S07-C06",
+                "S-S01-C04",
+                "S-S01-C06",
+                "S-S05-C03",
+                "S-S05-C05",
+                "S-S06-C01",
+                "S-S06-C07"
+              ]
+            },
+            {
+              "id": "S-S08-C02",
+              "title": "B2B新客户：公开获客、问卷评分、CRM与简单提案",
+              "type": "composite",
+              "sourcePage": "074",
+              "durationMinutes": 8,
+              "description": "一家制造业潜客从行业目录进入问卷，学员要完成公开信息补全、去重归属、评分、真人回复、客户建档和简单提案。",
+              "relatedCaseNote": "S-S07-C04、S-S07-C07、S-S02-C01、S-S02-C03、S-S02-C06、S-S03-C01、S-S03-C02、S-S03-C07、S-S01-C07",
+              "relatedCaseIds": [
+                "S-S07-C04",
+                "S-S07-C07",
+                "S-S02-C01",
+                "S-S02-C03",
+                "S-S02-C06",
+                "S-S03-C01",
+                "S-S03-C02",
+                "S-S03-C07",
+                "S-S01-C07"
+              ]
+            },
+            {
+              "id": "S-S08-C03",
+              "title": "方案迭代：承诺审查、差异通知与漏跟进闭环",
+              "type": "composite",
+              "sourcePage": "075",
+              "durationMinutes": 8,
+              "description": "客户提出修改要求并在会议中出现口头承诺；学员要更新提案、识别风险、生成书面确认、突出版本差异并安排后续跟进。",
+              "relatedCaseNote": "S-S01-C05、S-S01-C06、S-S01-C07、S-S04-C02、S-S04-C03、S-S04-C05、S-S04-C06、S-S04-C07、S-S06-C03、S-S06-C07",
+              "relatedCaseIds": [
+                "S-S01-C05",
+                "S-S01-C06",
+                "S-S01-C07",
+                "S-S04-C02",
+                "S-S04-C03",
+                "S-S04-C05",
+                "S-S04-C06",
+                "S-S04-C07",
+                "S-S06-C03",
+                "S-S06-C07"
+              ]
+            },
+            {
+              "id": "S-S08-C04",
+              "title": "网页抓取路线现场判断",
+              "type": "assessment",
+              "sourcePage": "076",
+              "durationMinutes": 3,
+              "description": "给出静态官网、JS列表、评论平台、PDF和登录页五个入口，学员在执行前选择技术。",
+              "relatedCaseNote": "S-S07-C01～S-S07-C06",
+              "relatedCaseIds": [
+                "S-S07-C01",
+                "S-S07-C02",
+                "S-S07-C03",
+                "S-S07-C04",
+                "S-S07-C05",
+                "S-S07-C06"
+              ]
+            },
+            {
+              "id": "S-S08-C05",
+              "title": "事实、价格、承诺红线抽检",
+              "type": "assessment",
+              "sourcePage": "077",
+              "durationMinutes": 3,
+              "description": "从三个复合案例随机抽取一份回复、一页提案和一项口头承诺做终检。",
+              "relatedCaseNote": "S-S01-C06、S-S01-C07、S-S04-C01、S-S04-C02、S-S04-C03、S-S04-C06",
+              "relatedCaseIds": [
+                "S-S01-C06",
+                "S-S01-C07",
+                "S-S04-C01",
+                "S-S04-C02",
+                "S-S04-C03",
+                "S-S04-C06"
+              ]
+            },
+            {
+              "id": "S-S08-C06",
+              "title": "自动化失败与人工接管",
+              "type": "assessment",
+              "sourcePage": "078",
+              "durationMinutes": 3,
+              "description": "动态页选择器失效、评论平台要求验证码、PDF OCR失败，学员必须保留旧数据并切换方案。",
+              "relatedCaseNote": "S-S07-C03、S-S07-C05、S-S07-C06、S-S06-C07",
+              "relatedCaseIds": [
+                "S-S07-C03",
+                "S-S07-C05",
+                "S-S07-C06",
+                "S-S06-C07"
+              ]
+            },
+            {
+              "id": "S-S08-C07",
+              "title": "最终口头答辩：为什么这样组合",
+              "type": "assessment",
+              "sourcePage": "079",
+              "durationMinutes": 2,
+              "description": "每组用两分钟说明调用了哪些前置案例、为什么按这个顺序、哪些动作必须由人确认。",
+              "relatedCaseNote": "S-S01-C01～S-S07-C07（按本组实际调用记录）"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

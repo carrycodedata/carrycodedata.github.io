@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-09-03T09:00:00+09:00",
+  "items": [
+    {
+      "id": "KAZE-CP-101",
+      "title": "月見テラスプラン",
+      "price_yen": 4500,
+      "start_date": "2026-09-05",
+      "end_date": "2026-09-29",
+      "status": "受付中",
+      "conditions": "18:00以降・2名以上",
+      "updated_at": "2026-09-02T18:30:00+09:00"
+    },
+    {
+      "id": "KAZE-CP-102",
+      "title": "週末ファミリーランチ",
+      "price_yen": 2200,
+      "start_date": "2026-09-06",
+      "end_date": "2026-10-25",
+      "status": "受付中",
+      "conditions": "土日祝・小学生以下ドリンク無料",
+      "updated_at": "2026-09-02T18:30:00+09:00"
+    },
+    {
+      "id": "KAZE-CP-103",
+      "title": "早割 忘年会予約",
+      "price_yen": 5000,
+      "start_date": "2026-09-01",
+      "end_date": "2026-09-30",
+      "status": "受付中",
+      "conditions": "11月開催・8名以上・9月中予約",
+      "updated_at": "2026-09-03T07:15:00+09:00"
+    },
+    {
+      "id": "KAZE-CP-104",
+      "title": "平日14時のデザートセット",
+      "price_yen": 1380,
+      "start_date": "2026-09-01",
+      "end_date": "2026-11-30",
+      "status": "受付中",
+      "conditions": "平日14:00〜16:30",
+      "updated_at": "2026-09-03T07:15:00+09:00"
+    },
+    {
+      "id": "KAZE-CP-105",
+      "title": "料理長おまかせ七皿",
+      "price_yen": 7200,
+      "start_date": "2026-09-12",
+      "end_date": "2026-10-31",
+      "status": "残席わずか",
+      "conditions": "3日前までに予約",
+      "updated_at": "2026-09-03T08:00:00+09:00"
+    },
+    {
+      "id": "KAZE-CP-106",
+      "title": "秋のテイクアウトBOX",
+      "price_yen": 1980,
+      "start_date": "2026-09-15",
+      "end_date": "2026-10-15",
+      "status": "準備中",
+      "conditions": "店頭受取のみ",
+      "updated_at": "2026-09-03T08:00:00+09:00"
+    },
+    {
+      "id": "KAZE-CP-107",
+      "title": "夏のビアテラス",
+      "price_yen": 4800,
+      "start_date": "2026-07-01",
+      "end_date": "2026-08-31",
+      "status": "終了",
+      "conditions": "雨天中止",
+      "updated_at": "2026-09-01T09:00:00+09:00"
+    }
+  ]
+}
